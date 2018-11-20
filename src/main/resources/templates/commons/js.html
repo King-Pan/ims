@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:fragment="js">
+    <script th:src="@{/assets/plugins/jquery/jquery.min.js}"></script>
+    <script th:src="@{/assets/plugins/calendar/jquery-ui.min.js}"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script th:src="@{/assets/plugins/bootstrap/js/popper.min.js}"></script>
+    <script th:src="@{/assets/plugins/bootstrap/js/bootstrap.min.js}"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script th:src="@{js/jquery.slimscroll.js}"></script>
+    <!--Wave Effects -->
+    <script th:src="@{js/waves.js}"></script>
+    <!--Menu sidebar -->
+    <script th:src="@{js/sidebarmenu.js}"></script>
+    <!--stickey kit -->
+    <script th:src="@{/assets/plugins/sticky-kit-master/dist/sticky-kit.min.js}"></script>
+    <script th:src="@{/assets/plugins/sparkline/jquery.sparkline.min.js}"></script>
+    <!--Custom JavaScript -->
+    <script th:src="js/custom.min.js}"></script>
+    <!-- Calendar JavaScript -->
+    <script th:src="@{/assets/plugins/calendar/jquery-ui.min.js}"></script>
+    <script th:src="@{/assets/plugins/moment/moment.js}"></script>
+    <script th:src='@{/assets/plugins/calendar/dist/fullcalendar.min.js}'></script>
+    <script th:src="@{/assets/plugins/calendar/dist/cal-init.js}"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script th:src="@{/assets/plugins/styleswitcher/jQuery.style.switcher.js}"></script>
+</div>
+</body>
+</html>
