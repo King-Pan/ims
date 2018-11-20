@@ -155,6 +155,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<!--fork:设置True，否则可能devtools不会起作用-->
+					<fork>true</fork>
+				</configuration>
 			</plugin>
 			<!--因为是类型安全的，所以还需要加上Maven APT plugin，使用 APT 自动生成一些类:-->
 			<plugin>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head th:replace="commons/meta_head :: metaHead(title='快速开发平台 | 主页')">
+</head>
+<body class="fix-header card-no-border">
+<!--<div class="preloader">-->
+    <!--<svg class="circular" viewBox="25 25 50 50">-->
+        <!--<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>-->
+    <!--</svg>-->
+<!--</div>-->
+
+<div id="main-wrapper">
+    <div th:replace="commons/header :: header"></div>
+    <div th:replace="commons/aside :: leftSidebar"></div>
+    <div class="page-wrapper">
+        <h1>首页2</h1>
+    </div>
+</div>
+<div th:replace="commons/onloadJS :: onloadJS"></div>
+</body>
+</html>
